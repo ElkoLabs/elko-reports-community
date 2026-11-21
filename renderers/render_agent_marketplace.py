@@ -311,7 +311,7 @@ def render_full_report(data):
                    '<a href="https://github.com/jsoprych/elko-skills" target="_blank">Hermes Skills</a>'
 
     # Pages URL
-    pages_url = f"https://jsoprych.github.io/elko-reports-community/daily/{DATE_STR}-{TIME_STR}-{SLUG}.html"
+    pages_url = f"https://elkolabs.github.io/elko-reports-community/daily/{DATE_STR}-{TIME_STR}-{SLUG}.html"
 
     # Extra CSS for this report
     extra_css = """
@@ -371,7 +371,7 @@ def main():
     print(f"\\U0001f500 Pushed to GitHub")
 
     # Email
-    pages_url = f"https://jsoprych.github.io/elko-reports-community/daily/{DATE_STR}-{TIME_STR}-{SLUG}.html"
+    pages_url = f"https://elkolabs.github.io/elko-reports-community/daily/{DATE_STR}-{TIME_STR}-{SLUG}.html"
     github_url = f"https://github.com/jsoprych/elko-reports-community/blob/main/daily/{DATE_STR}-{TIME_STR}-{SLUG}.html"
 
     # Verify Pages URL is live before emailing (Pages builds take 30-60s)
